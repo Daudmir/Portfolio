@@ -52,6 +52,7 @@ body {
     float: right;
   }
   
+  /*Media queries til ændring af skærmstørrelse*/
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
