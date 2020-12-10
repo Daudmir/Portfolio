@@ -7,15 +7,18 @@
     font: url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 }
 
+/*Scrool funktionen der er på siden*/
 html {
     scroll-behavior: smooth;
 }
 
+/*Helle hjemmesidens font og baggrundsfarve*/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #738ca7;
 }
 
+/*Header*/
 .header {
     overflow: hidden;
     background-color: #8697a8;
@@ -60,12 +63,14 @@ body {
     }
   }
 
+  /*Top text mit navn og uddannelsen jeg går på*/
   .top-text{
       margin-top: 30px;
       color: #ffffff;
       text-align: center;
   }
 
+  /*Billedet af mig*/
   .mig{
       width: 50%;
       padding-left: 10px;
@@ -74,7 +79,7 @@ body {
       margin-left: auto;
       margin-right: auto;
   }
-
+    /*Teksten om mig*/
   .om-mig{
       color: #ffffff;
       background-color: #8697a8;
@@ -97,6 +102,7 @@ body {
       text-align: center;
   }
 
+  /*Mine projekter*/
   .projekter{
     color: #ffffff;
     text-align: center;
@@ -113,7 +119,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+/*Boksene der er lavet til projekterne*/
 .meme-war div {
   max-width: 500px;
   background-color: #8697a8;
@@ -148,7 +154,7 @@ body {
     width: 100%;
     height: 33%;
 }
-
+/*Webshop*/
 .webshop{
     margin-top: 50px;
     color: #ffffff;
@@ -197,6 +203,7 @@ body {
     height: 50%;
 }
 
+/*Min footer med sociale medier*/
 .footer {
     overflow: hidden;
     background-color: #8697a8;
